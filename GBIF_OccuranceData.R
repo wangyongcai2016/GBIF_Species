@@ -1,4 +1,4 @@
-#批量下载gbif数据
+#将分块下载的gbif文件合并
 library(rgbif)
 setwd('D:/GBIF_Occurences')
 grid <- openxlsx::read.xlsx('ChinaModisBox.xlsx')
